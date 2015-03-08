@@ -1,12 +1,8 @@
 var Hello = require('./components/hello2-af');
-var Button  = require('./components/uf-button');
 var React = require('react');
 var Header = require('./components/header/uf-header');
 var Menu = require('./components/menu/side-menu');
-React.render(
-    <Button />,
-    document.getElementById('example')
-);
+var Tab = require('./components/tab/tab');
 
 React.render(
     <Header />,
@@ -16,4 +12,9 @@ React.render(
 React.render(
     <Menu />,
     document.getElementById('menu')
+);
+
+React.render(
+    <Tab />,
+    document.getElementById('tab')
 );
