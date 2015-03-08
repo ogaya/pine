@@ -5,12 +5,15 @@
     "author": "",
     "license": "ISC",
     "dependencies":{
+        "flux": "^2.0.1",
+        "object-assign": "^2.0.0",
         "react":"^0.12.2"
     },
     "devDependencies":{
         "gulp":"^3.8.10",
         "gulp-webpack":"^1.1.2",
         "jsx-loader": "0.12.2",
+        "babel-loader": "",
         "rimraf": "^2.2.8",
         "url-loader":"",
         "superagent":"",

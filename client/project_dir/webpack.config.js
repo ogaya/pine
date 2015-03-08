@@ -6,7 +6,8 @@ module.exports = {
     devtool: 'inline-source-map',
     module: {
         loaders: [
-            { test: /\.jsx$/, loader: 'jsx-loader?harmony' },
+            { test: /\.jsx$/, loader: 'babel-loader' },
+            { test: /\.js$/, loader: 'babel-loader' },
             { test: /\.png$/, loader: 'url?limit=8192' }
         ]
     },
