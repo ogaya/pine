@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta charset="utf-8" />
+        <meta http-equiv="imagetoolbar" content="no" />
+        <link rel="stylesheet" type="text/css" href="/css/base.css">
+        <script type="text/javascript" src="/js/d3.min.js"></script>
+        <script type="text/javascript" src="/js/base.js"></script>
+    </head>
+    <body>
+        <div id="topMenu">
+            <div class="headerItem">
+                <img class="titleIcon" src="/image/UFO.png"/>
+            </div>
+            <div class="headerItem" style="font-weight:bold">Unknown Flight</div>
+            <div class="rightMenu headerItem">
+            </div>
+        </div>
+        <div id="main">
+            <div id="sideMenu">
+                <div class="sideMenuTitle">ターゲット</div>
+                <div class="list">
+                    <ul id="sideList">
+                    </ul>
+                </div>
+            </div>
+            <div id="content"></div>
+            <div id="contentMenu">
+                <a id="tagTab" class="contentMenuNonSelect" href="javascript:contentTabClick('tagTab')" >tag No.</a><a id="olsTab" href="javascript:contentTabClick('olsTab')" class="contentMenuSelect">多変量解析</a><a id="corrTab" href="javascript:contentTabClick('corrTab')" class="contentMenuNonSelect">相関係数</a>
+            </div> 
+        </div>
+    </body>
+</html>
